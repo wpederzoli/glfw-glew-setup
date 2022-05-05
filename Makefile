@@ -1,3 +1,3 @@
 build:
-	g++ main.cpp -lglfw -lGLEW -o app
+	g++ --std=c++14 main.cpp -lglfw -lGLEW -lGL -o app
 
